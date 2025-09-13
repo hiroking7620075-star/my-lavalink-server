@@ -1,0 +1,29 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: "Dang@07062007"  # 
+    sources:
+      youtube: true
+      bandcamp: false
+      soundcloud: false
+      twitch: false
+      vimeo: false
+      mixer: false
+      http: false
+      local: false
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 6  # Số lượng playlist có thể tải
+    playerUpdateInterval: 3
+
+logging:
+  file:
+    max-history: 30
+    max-size: 1GB
+  path: ./logs/
+
+suggesters:
+  enabled: false
+  source: youtube
